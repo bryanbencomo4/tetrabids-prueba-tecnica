@@ -1,0 +1,45 @@
+%clearfix {
+	@include clearfix;
+}
+%font-lato {
+	font-family: 'LatoRegular';
+}
+%font-lato-bold {
+	font-family: 'LatoBold';
+}
+%bg-no-repeat {
+	background-repeat: no-repeat;
+}
+%bg-cover {
+	background-size: cover;
+}
+%display-flex {
+	display: flex;
+}
+%display-flex-center-items-xy {
+	@extend %display-flex;
+	justify-content: center;
+	align-items: center;
+}
+%display-block {
+	display: block;
+}
+%display-inline {
+	display: inline;
+}
+%display-inline-block {
+	display: inline-block;
+}
+%icon {
+	@extend %display-inline-block;
+	@include hide-text;
+	width: 3.125em;
+	height: 3.125em;
+}
+%border-none {
+	border: none;
+}
+%margin-offset {
+	margin-left: -1em;
+	margin-right: -1em;
+}

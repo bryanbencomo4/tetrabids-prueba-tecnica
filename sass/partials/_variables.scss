@@ -1,0 +1,43 @@
+// =================
+//	GRADIENT COLORS
+// =================
+
+// Gradient 1
+$gradient-1-color-1: #72C6D3;
+$gradient-1-color-2: #C896B6;
+$gradient-1: linear-gradient(left, $gradient-1-color-1, $gradient-1-color-2);
+
+// Gradient 2
+$gradient-2-color-1: #A2D5EC;
+$gradient-2-color-2: #00A7CE;
+$gradient-2: linear-gradient(left, $gradient-2-color-1, $gradient-2-color-2);
+
+// Gradient 3
+$gradient-3-color-1: #E2401C;
+$gradient-3-color-2: #C13E83;
+$gradient-3: linear-gradient(left, $gradient-3-color-1, $gradient-3-color-2);
+
+// =================
+//	EXTRA COLORS
+// =================
+
+$extra-color-1: #518EB2;
+$extra-color-2: #5AA1D8;
+$extra-color-3: #C7C6C5;
+$extra-color-4: #AFAFAE;
+$extra-color-5: #28265B;
+$extra-color-6: #EEE;
+$extra-color-7: #F1C40F;
+
+// =================
+//	MIXIN VARIABLES
+// =================
+
+// box-sizing default value
+$defined-bs-type: border-box !default;
+
+// Breakpoint variables for MQ
+$XS: 36em; // around 576px wide with 16px body font
+$S: 48em; // around 768px wide with 16px body font
+$M: 62em; // around 992px wide with 16px body font
+$L: 75em; // around 1200px wide with 16px body font

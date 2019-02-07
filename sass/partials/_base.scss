@@ -1,0 +1,27 @@
+body {
+    font-size: 1em;
+    line-height: 1.4;
+	background-color: $extra-color-6;
+
+	@extend %font-lato;
+
+    // Modernizr fallback for when there is no fontface support
+    .no-fontface & {
+    	font-family: "sans-serif";
+    }
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: $extra-color-5;
+}
+::-moz-selection {
+    background: $extra-color-1;
+    text-shadow: none;
+}
+::selection {
+    background: $extra-color-1;
+    text-shadow: none;
+}

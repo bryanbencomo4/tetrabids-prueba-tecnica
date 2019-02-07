@@ -1,0 +1,26 @@
+/*! --------------------------------------------------------
+	"Tetrabids Technical Test"
+	=========================
+	version: 0.0.1
+	author: Bryan J. Bencomo H.
+	email: bjbh415@gmail.com
+	date: Feb 2019
+----------------------------------------------------------*/
+
+// ========
+// Imports
+// ========
+
+@import "compass";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/fonts";
+@import "partials/_material-design-iconic-font.scss";
+@import "partials/normalize";
+@import "partials/base";
+@import "partials/placeholders";
+@import "partials/layout";
+@import "partials/components";
+
+@import "partials/_slick";
+@import "partials/_slick-theme";
