@@ -1,0 +1,20 @@
+// Bounce
+@include keyframes(bounce) {
+	$max-translation: 12px;
+
+	20% {
+		@include translateY($max-translation);
+	}
+	40% {
+		@include translateY(-$max-translation);
+	}
+	60% {
+		@include translateY($max-translation / 2);
+	}
+	80% {
+		@include translateY(-($max-translation / 2));
+	}
+	100% {
+		@include translateY(0);
+	}
+}

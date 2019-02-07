@@ -108,8 +108,15 @@
 }
 // SECTION STEPS
 // ==============
-#section-steps article p {
-	text-align: justify;
+#section-steps {
+	article {
+		&:hover [class^="steps-icon"]{
+			@include animation(.25s bounce 1);
+		}
+		p {
+			text-align: justify;
+		}
+	}
 }
 
 // SECTION SEARCH
