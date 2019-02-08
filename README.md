@@ -17,9 +17,10 @@ Esta es una prueba técnica realizada con el fin de ingresar al equipo de diseñ
 # TECNOLOGÍAS UTILIZADAS
 
 - HTML5
-- Sass 3.4.25 (Selective Steve)
 - jQuery 1.11.0
+- Sass 3.4.25 (Selective Steve)
 - Compass 1.0.3 (Polaris)
+- Susy
 - Modernizr 3.6.0
 - Markdown
 - Git 2.7.4
