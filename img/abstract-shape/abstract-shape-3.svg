@@ -41,11 +41,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="507.28591"
-     inkscape:cy="-30.819517"
+     inkscape:zoom="1.22"
+     inkscape:cx="497.89274"
+     inkscape:cy="63.466197"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:snap-page="true"
      inkscape:window-width="1440"
@@ -75,7 +75,7 @@
      transform="translate(0,-262.60428)">
     <path
        style="opacity:1;fill:#5aa1d8;fill-opacity:1;stroke:none;stroke-width:0.27373698;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 0,282.27826 c 145.66997,32.8722 256.11667,1.82433 256.11667,1.82433 V 262.60428 L 0,262.33979 Z"
+       d="m 0,279.24206 c 124.19968,38.29399 256.11667,0.84531 256.11667,0.84531 V 262.60428 L 0,262.33979 Z"
        id="path7479"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -86,4 +86,8 @@
      inkscape:label="Capa 2"
      style="display:inline"
      transform="translate(0,-262.60428)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Capa 3" />
 </svg>

@@ -15,7 +15,7 @@
    version="1.1"
    id="svg6036"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="forma-abstracta-1.svg">
+   sodipodi:docname="abstract-shape-1.svg">
   <defs
      id="defs6030">
     <marker
@@ -41,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="411.08038"
-     inkscape:cy="-30.819517"
+     inkscape:zoom="1.22"
+     inkscape:cx="497.89274"
+     inkscape:cy="63.466197"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -75,9 +75,10 @@
      transform="translate(0,-262.60428)">
     <path
        style="opacity:1;fill:#5aa1d8;fill-opacity:1;stroke:none;stroke-width:0.27373698;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 0,282.27826 c 145.66997,32.8722 256.11667,2.58028 256.11667,2.58028 L 255.6786,262.581 0,262.33979 Z"
+       d="m 0,279.24206 c 124.19968,38.29399 256.11667,0.84531 256.11667,0.84531 V 262.60428 L 0,262.33979 Z"
        id="path7479"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -86,10 +87,14 @@
      style="display:inline"
      transform="translate(0,-262.60428)">
     <path
-       style="opacity:1;fill:#518eb2;fill-opacity:1;stroke:none;stroke-width:0.27373698;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="M 0.61274387,277.25901 C 237.86617,247.47705 256.11667,275.00658 256.11667,275.00658 L 255.6786,262.581 0,262.33979 Z"
+       style="opacity:1;fill:#518eb2;fill-opacity:1;stroke:none;stroke-width:0.23804303;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 0,275.1215 c 237.25343,-22.52149 256.11667,-3.20293 256.11667,-3.20293 V 262.5398 L 0,262.33979 Z"
        id="path7484"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Capa 3" />
 </svg>
