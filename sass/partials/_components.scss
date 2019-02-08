@@ -230,6 +230,12 @@
 		.social-wrapper {
 			ul {
 				list-style: none;
+				.social-item {
+					&:hover {
+						@include simple-transform(1.5, 360deg);
+						@include transition(all .5s);
+					}
+				}
 			}
 		}
 	}

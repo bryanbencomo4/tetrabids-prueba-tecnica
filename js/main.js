@@ -24,7 +24,7 @@ var viewComponents = [
 	{ container: '#section-experience', filename: 'section-experience' },
 	// sections //
 
-	{ container: '#main-footer', filename: 'footer' }
+	// { container: '#main-footer', filename: 'footer' }
 ];
 
 // ===================
@@ -96,4 +96,12 @@ $(document).ready(function() {
 			]
 		});
 	});
+
+	$('.social-item')
+		.mouseover(function(e) {
+			$(e.target).css({ "animation" : "" });
+		})
+		.mouseleave(function(e) {
+			$(e.target).css({ "animation" : "0.25s bounce 1" });
+		});
 });
