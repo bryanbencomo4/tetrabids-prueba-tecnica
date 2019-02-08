@@ -32,9 +32,17 @@
 
 		&:nth-child(odd) {
 			@include background(linear-gradient(left, $gradient-2-color-1, $gradient-2-color-2));
+			&:hover {
+				@include transition(background .1s);
+				@include background(linear-gradient(right, $gradient-2-color-1, $gradient-2-color-2));
+			}
 		}
 		&:nth-child(even) {
 			@include background(linear-gradient(left, $gradient-3-color-1, $gradient-3-color-2));
+			&:hover {
+				@include transition(background .1s);
+				@include background(linear-gradient(right, $gradient-3-color-1, $gradient-3-color-2));
+			}
 		}
 	}
 	.navbar-nav-item a {
