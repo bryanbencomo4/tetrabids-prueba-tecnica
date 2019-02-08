@@ -99,10 +99,10 @@ $border-box-sizing: true;
 // SECTION GALERY
 // ===================
 #section-galery {
-	@extend %margin-offset;
 	padding-bottom: 0;
 }
 .galery-carousel {
+	@extend %margin-offset;
 	.galery-carousel-body {
 		position: relative;
 		margin: auto;
