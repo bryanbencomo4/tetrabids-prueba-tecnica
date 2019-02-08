@@ -15,6 +15,11 @@
 
 // is executed when the document has already loaded
 $(document).ready(function() {
+	// mobile menu toogle
+	$("#mobile-menu-toggle").click(function(){
+        $(".mobile-menu").toggle("slide");
+	});
+
 	// Initializes slick
 	$('.galery-carousel-body').slick({
 		dots: false,
