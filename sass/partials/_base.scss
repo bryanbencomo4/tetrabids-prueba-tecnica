@@ -25,3 +25,16 @@ a {
     background: $extra-color-1;
     text-shadow: none;
 }
+::-webkit-scrollbar {
+	width: .6em;
+}
+::-webkit-scrollbar-track {
+	@include background($extra-color-4);
+}
+::-webkit-scrollbar-thumb {
+	@include background($extra-color-5);
+	@include border-radius(1em);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: darken($extra-color-5, 5%);
+}
