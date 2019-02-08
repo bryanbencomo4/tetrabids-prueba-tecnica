@@ -23,12 +23,10 @@
 	}
 	.navbar-nav-item {
 		font-size: 1em;
-		padding: .5em;
 		cursor: pointer;
 		position: relative;
 		width: 7.93em;
 		height: 6.25em;
-		@extend %display-flex-center-items-xy;
 
 		&:nth-child(odd) {
 			@include background(linear-gradient(left, $gradient-2-color-1, $gradient-2-color-2));
@@ -44,10 +42,14 @@
 				@include background(linear-gradient(right, $gradient-3-color-1, $gradient-3-color-2));
 			}
 		}
-	}
-	.navbar-nav-item a {
-		color: $extra-color-6;
-		text-decoration: none;
+
+		a {
+			color: $extra-color-6;
+			text-decoration: none;
+			width: 100%;
+			height: 100%;
+			@extend %display-flex-center-items-xy;
+		}
 	}
 	.navbar-nav-item + .navbar-nav-item {
 		margin-left: 25px;
